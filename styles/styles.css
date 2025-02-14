@@ -1,1 +1,33 @@
-body {background-color: aqua;}
+body {
+    background-color: aqua;
+}
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+.Futbol {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Futbol h1{
+    color: blue;
+}
+
+.Futbol img{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+/* Ejemplo de botones*/
+
+.botones {
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin: 20px;
+}
+.botones{
+    margin: 20px;
+}
